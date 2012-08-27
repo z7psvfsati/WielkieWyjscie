@@ -1,0 +1,32 @@
+object frmGlowna: TfrmGlowna
+  Left = 427
+  Height = 239
+  Top = 122
+  Width = 321
+  Caption = 'Wielkie Wyjscie'
+  ClientHeight = 239
+  ClientWidth = 321
+  Constraints.MaxHeight = 239
+  Constraints.MaxWidth = 321
+  Constraints.MinHeight = 239
+  Constraints.MinWidth = 321
+  LCLVersion = '1.1'
+  object btnWyjscie: TButton
+    Left = 8
+    Height = 110
+    Top = 120
+    Width = 302
+    Caption = 'Wyjscie'
+    OnClick = btnWyjscieClick
+    TabOrder = 0
+  end
+  object btnUruchom: TButton
+    Left = 8
+    Height = 108
+    Top = 10
+    Width = 302
+    Caption = 'Uruchom'
+    OnClick = btnUruchomClick
+    TabOrder = 1
+  end
+end
